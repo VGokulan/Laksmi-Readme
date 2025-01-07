@@ -53,13 +53,13 @@ Even in developing areas, garbage overflow and waste on the streets persist, des
 
 ## Technologies Used
 
-1.**Front-End** : HTML , CSS , JavaScript
-2.**Back-End** : MongoDB , Flask
-3.**FrameWork** : Tensorflow , Google Map API , PyTorch
-4.**Models** : Ensemble Model (Random Forest , XGB Regressor ,Gradient Boosting ) , KNN Models
-5.**IOT Sensors** : ESP32u , UltraSonic Sensor
-6.**IOT modules** : Wifi.h , httpclient.h , newping.h
-7.**Storage** : MongoDB
+1. **Front-End** : HTML , CSS , JavaScript
+2. **Back-End** : MongoDB , Flask
+3. **FrameWork** : Tensorflow , Google Map API , PyTorch
+4. **Models** : Ensemble Model (Random Forest , XGB Regressor ,Gradient Boosting ) , KNN Models
+5. **IOT Sensors** : ESP32u , UltraSonic Sensor
+6. **IOT modules** : Wifi.h , httpclient.h , newping.h
+7. **Storage** : MongoDB
 
 
 
