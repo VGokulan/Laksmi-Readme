@@ -72,6 +72,9 @@ Team Members:
   - Vicky
   - Gokulan
 
+## Contact
+- Leader Email() PhoneNo()
+- Member Email() PhoneNo()
 
 
 
