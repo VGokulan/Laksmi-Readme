@@ -61,6 +61,18 @@ Even in developing areas, garbage overflow and waste on the streets persist, des
 6. **IOT modules** : Wifi.h , httpclient.h , newping.h
 7. **Storage** : MongoDB
 
+## Project Structure
+
+![image](https://github.com/user-attachments/assets/be5bb119-7b27-4e64-a66c-50029ab00a90)
+
+## Contributing 
+Team Members:
+-- Senthanee
+-- Srikanth
+-- Vicky
+-- Gokulan
+
+
 
 
 
