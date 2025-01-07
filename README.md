@@ -67,10 +67,10 @@ Even in developing areas, garbage overflow and waste on the streets persist, des
 
 ## Contributing 
 Team Members:
--- Senthanee
--- Srikanth
--- Vicky
--- Gokulan
+  - Senthanee
+  - Srikanth
+  - Vicky
+  - Gokulan
 
 
 
