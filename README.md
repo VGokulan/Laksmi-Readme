@@ -49,7 +49,59 @@ Even in developing areas, garbage overflow and waste on the streets persist, des
 
 ## Installations
 
+## Installation
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/username/smart-waste-management.git
+cd smart-waste-management
+```
+### Step 2: Install Required Libraries
+It is recommended to set up a virtual environment:
+```
+python -m venv env
+source env/bin/activate    # Linux/MacOS
+env\Scripts\activate       # Windows
+```
+Install the dependencies:
+```
+pip install -r requirements.txt
+```
+### Step 3: Setup Backend
+Ensure you have installed and configured the backend files on your system .
+
+```
+pip install scikit-learn-intelex dpctl
+```
+### Step 4: Setup Frontend (AHP32)
+Ensure you have installed and configured the frontend files  on your system .
+```
+pip install scikit-learn-intelex dpctl
+```
+### Step 5: Setup IoT Sensors (AHP32)
+Configure the AHP32 ultrasonic sensors for real-time data collection:
+
+-Ensure proper connection and setup of sensors with the bins.
+-Set up an MQTT broker or other IoT communication protocols to send data to the system.
+
+
 ## Usage
+### Running the System
+1. **Start the Sensor Data Collection:** The system will collect real-time data from the AHP32 Ultrasonic Sensors and log fill levels.
+```
+python sensor_data_collection.py
+```
+2. **Run Predictive Model:** The ensemble machine learning model will predict future waste levels and trigger vehicle routing based on predictions.
+```
+python waste_prediction.py
+```
+3. **Dashboard Access:** Open the dashboard in your browser to monitor real-time fill levels, vehicle routing, event schedules, and user queries.
+```
+python dashboard.py
+```
+4. **User Interaction:** Users can interact with the Lakshmi chatbot for event registration, complaint reporting, and garbage classification.
+```
+python chatbot.py
+```
 
 ## Technologies Used
 
