@@ -49,7 +49,6 @@ Even in developing areas, garbage overflow and waste on the streets persist, des
 
 ## Installations
 
-## Installation
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/username/smart-waste-management.git
