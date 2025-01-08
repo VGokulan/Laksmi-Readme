@@ -70,12 +70,12 @@ pip install -r requirements.txt
 Ensure you have installed and configured the backend files on your system .
 
 ```
-pip install scikit-learn-intelex dpctl
+python app.py
 ```
 ### Step 4: Setup Frontend (AHP32)
 Ensure you have installed and configured the frontend files  on your system .
 ```
-pip install scikit-learn-intelex dpctl
+npm run build 
 ```
 ### Step 5: Setup IoT Sensors (AHP32)
 Configure the AHP32 ultrasonic sensors for real-time data collection:
