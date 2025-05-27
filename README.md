@@ -1,132 +1,206 @@
 # Lakshmi Smart Waste Management System
 
 ## Overview
-Even in developing areas, garbage overflow and waste on the streets persist, despite waste collection systems in place. Poor waste management practices lead to environmental issues and public health concerns. So we introduce **Lakshmi Smart Waste Management System** is an innovative solution designed to tackle waste management challenges in urban areas. Leveraging real-time data and predictive analytics, Lakshmi optimizes waste collection, prevents overflow, and ensures timely responses to cleanliness issues, enhancing resource efficiency and environmental sustainability.
+
+Even in developing areas, garbage overflow and street littering persist despite existing waste collection systems. Poor waste management practices contribute to environmental degradation and pose serious public health risks.
+
+The **Lakshmi Smart Waste Management System** is an innovative solution designed to address these urban challenges. By leveraging real-time sensor data and predictive analytics, Lakshmi optimizes waste collection, prevents bin overflow, ensures timely responses to cleanliness issues, and enhances both operational efficiency and environmental sustainability.
+
+---
 
 ## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
+* [Overview](#overview)
+* [Features](#features)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Technologies Used](#technologies-used)
+* [Project Structure](#project-structure)
+* [Contributing](#contributing)
+* [Contact](#contact)
+
+---
 
 ## Features
-1. ### **Optimized Waste Collection**: Real-time sensor data tracks bin levels, ensuring efficient collection and reduced operational costs.
 
-  ![Screenshot 2025-01-07 102626](https://github.com/user-attachments/assets/73f2acb5-cdcd-41e9-aa34-07f1347d41d2)
+### 1. Optimized Waste Collection
 
-2. ### **Preventing Overflow & Littering**: Predictive models anticipate waste patterns, preventing overflow during public events.
-   
-   ![Screenshot 2025-01-07 102652](https://github.com/user-attachments/assets/002b7e7a-d0c0-4a19-a169-6bed088c5ed6)
+Real-time sensor data tracks bin levels, ensuring efficient collection and reduced operational costs.
+![Real-time Monitoring](https://github.com/user-attachments/assets/73f2acb5-cdcd-41e9-aa34-07f1347d41d2)
 
-3. ### **Dynamic Event-based Allocation**: If there is a evernt notified it allocates necessary resources for the garbage collection there via our app.
- 
-   ![Screenshot 2025-01-07 102412](https://github.com/user-attachments/assets/8623452d-126f-4129-b493-da59d25bbce1)
+---
 
-   ![Screenshot 2025-01-07 102739](https://github.com/user-attachments/assets/d2bb238e-000f-425b-848d-55442be44109)
+### 2. Preventing Overflow & Littering
 
+Predictive models forecast waste patterns, especially during public events, reducing the chance of overflow.
+![Prediction in Action](https://github.com/user-attachments/assets/002b7e7a-d0c0-4a19-a169-6bed088c5ed6)
 
-4. ### **Immediate Response to Cleanliness Issues**: Public photo-reporting feature for quick action on cleanliness complaints.
- 
-   ![Screenshot 2025-01-07 102513](https://github.com/user-attachments/assets/e55a5e52-dc91-4e3e-883d-9f853d933465)
-   
-   ![Screenshot 2025-01-07 102749](https://github.com/user-attachments/assets/6ae5a22d-b055-4e38-ba84-7476e664ff0e)
+---
 
+### 3. Dynamic Event-Based Allocation
 
-5. ### **Efficient Fleet Utilization**: Predictive vehicle allocation optimizes fleet use, reducing wear and tear.
+When an event is scheduled, the system automatically allocates garbage collection resources at the event location via the app.
+![Event Allocation](https://github.com/user-attachments/assets/8623452d-126f-4129-b493-da59d25bbce1)
+![Dynamic Allocation UI](https://github.com/user-attachments/assets/d2bb238e-000f-425b-848d-55442be44109)
 
-![Screenshot 2025-01-07 102809](https://github.com/user-attachments/assets/7dfba954-db23-4a84-990a-c32378eb6b46)
+---
 
-6. ### **Announcements**: Event and updates can be announced to user and authorities.
+### 4. Immediate Response to Cleanliness Issues
 
-![Screenshot 2025-01-07 102529](https://github.com/user-attachments/assets/35c15af0-4d41-409f-aa0a-974ff15b1cfe)
+A public photo-reporting feature enables rapid response to cleanliness complaints.
+![Photo Reporting](https://github.com/user-attachments/assets/e55a5e52-dc91-4e3e-883d-9f853d933465)
+![Complaint Management](https://github.com/user-attachments/assets/6ae5a22d-b055-4e38-ba84-7476e664ff0e)
 
-![Screenshot 2025-01-07 102859](https://github.com/user-attachments/assets/c3f1d7f4-fe13-4f5a-875b-a99b13005cb2)
+---
 
-## Installations
+### 5. Efficient Fleet Utilization
+
+Predictive vehicle allocation minimizes fuel usage and vehicle wear and tear.
+![Fleet Efficiency](https://github.com/user-attachments/assets/7dfba954-db23-4a84-990a-c32378eb6b46)
+
+---
+
+### 6. Announcements
+
+Events and critical updates can be broadcast to users and authorities to coordinate actions.
+![Announcements Panel](https://github.com/user-attachments/assets/35c15af0-4d41-409f-aa0a-974ff15b1cfe)
+![Event Notification](https://github.com/user-attachments/assets/c3f1d7f4-fe13-4f5a-875b-a99b13005cb2)
+
+---
+
+## Installation
 
 ### Step 1: Clone the Repository
+
 ```bash
 git clone https://github.com/username/smart-waste-management.git
 cd smart-waste-management
 ```
-### Step 2: Install Required Libraries
-It is recommended to set up a virtual environment:
-```
+
+### Step 2: Set Up Virtual Environment
+
+```bash
 python -m venv env
-source env/bin/activate    # Linux/MacOS
-env\Scripts\activate       # Windows
+# Linux/MacOS
+source env/bin/activate
+# Windows
+env\Scripts\activate
 ```
-Install the dependencies:
-```
+
+### Step 3: Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
-### Step 3: Setup Backend
-Ensure you have installed and configured the backend files on your system .
 
-```
+### Step 4: Setup Backend
+
+Ensure backend files are configured properly.
+
+```bash
 python app.py
 ```
-### Step 4: Setup Frontend (AHP32)
-Ensure you have installed and configured the frontend files  on your system .
-```
-npm run build 
-```
-### Step 5: Setup IoT Sensors (AHP32)
-Configure the AHP32 ultrasonic sensors for real-time data collection:
 
--Ensure proper connection and setup of sensors with the bins.
--Set up an MQTT broker or other IoT communication protocols to send data to the system.
+### Step 5: Setup Frontend (AHP32)
 
+```bash
+npm install
+npm run build
+```
+
+### Step 6: Setup IoT Sensors (ESP32)
+
+* Connect ultrasonic sensors to bins
+* Configure ESP32 with the appropriate MQTT broker or HTTP server
+* Use libraries such as `wifi.h`, `httpclient.h`, and `newping.h`
+
+---
 
 ## Usage
-### Running the System
-1. **Start the Sensor Data Collection:** The system will collect real-time data from the AHP32 Ultrasonic Sensors and log fill levels.
-```
+
+### 1. Start Sensor Data Collection
+
+```bash
 python sensor_data_collection.py
 ```
-2. **Run Predictive Model:** The ensemble machine learning model will predict future waste levels and trigger vehicle routing based on predictions.
-```
+
+### 2. Run Predictive Model
+
+```bash
 python waste_prediction.py
 ```
-3. **Dashboard Access:** Open the dashboard in your browser to monitor real-time fill levels, vehicle routing, event schedules, and user queries.
-```
+
+### 3. Access Dashboard
+
+```bash
 python dashboard.py
 ```
-4. **User Interaction:** Users can interact with the Lakshmi chatbot for event registration, complaint reporting, and garbage classification.
-```
+
+### 4. Launch Chatbot Interface
+
+```bash
 python chatbot.py
 ```
 
+---
+
 ## Technologies Used
 
-1. **Front-End** : HTML , CSS , JavaScript
-2. **Back-End** : MongoDB , Flask
-3. **FrameWork** : Tensorflow , Google Map API , PyTorch
-4. **Models** : Ensemble Model (Random Forest , XGB Regressor ,Gradient Boosting ) , KNN Models
-5. **IOT Sensors** : ESP32u , UltraSonic Sensor
-6. **IOT modules** : Wifi.h , httpclient.h , newping.h
-7. **Storage** : MongoDB
+| Category      | Tools/Technologies                                              |
+| ------------- | --------------------------------------------------------------- |
+| Frontend      | HTML, CSS, JavaScript                                           |
+| Backend       | Python (Flask), MongoDB                                         |
+| Frameworks    | TensorFlow, PyTorch, Google Maps API                            |
+| ML Models     | Ensemble Model (Random Forest, XGBoost, Gradient Boosting), KNN |
+| IoT Hardware  | ESP32, Ultrasonic Sensors                                       |
+| IoT Libraries | `wifi.h`, `httpclient.h`, `newping.h`                           |
+| Storage       | MongoDB                                                         |
+
+---
 
 ## Project Structure
 
-![image](https://github.com/user-attachments/assets/be5bb119-7b27-4e64-a66c-50029ab00a90)
+```
+smart-waste-management/
+│
+├── backend/
+│   ├── app.py
+│   ├── dashboard.py
+│   ├── waste_prediction.py
+│   └── chatbot.py
+│
+├── frontend/
+│   └── [React or HTML/CSS/JS files]
+│
+├── sensors/
+│   └── sensor_data_collection.py
+│
+├── requirements.txt
+└── README.md
+```
 
-## Contributing 
+![Folder Structure](https://github.com/user-attachments/assets/be5bb119-7b27-4e64-a66c-50029ab00a90)
+
+---
+
+## Contributing
+
 Team Members:
-  - Senthanee
-  - Srikanth
-  - Vicky
-  - Gokulan
+
+* Senthanee
+* Srikanth
+* Vicky
+* Gokulan
+
+We welcome feedback, issues, or feature suggestions!
+
+---
 
 ## Contact
-- Leader Email() PhoneNo()
-- Member Email() PhoneNo()
 
+*Please update with actual contact details:*
 
-
-
+* 📧 Gokulan: \[[email@example.com](mailto:email@example.com)] | 📞 +91-XXXXXXXXXX
+* 📧 Senthanee: \[[email@example.com](mailto:email@example.com)] | 📞 +91-XXXXXXXXXX
+* 📧 Srikanth: \[[email@example.com](mailto:email@example.com)] | 📞 +91-XXXXXXXXXX
+* 📧 Vicky: \[[email@example.com](mailto:email@example.com)] | 📞 +91-XXXXXXXXXX
